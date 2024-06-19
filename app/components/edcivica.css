@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.navbar {
+    color: #ffffff;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative; /* Per consentire il posizionamento relativo */
+    border-radius: 10px; /* Smussa gli angoli dello sfondo */
+    overflow: hidden; /* Nasconde il contenuto che supera i bordi arrotondati */
+}
+
+.article-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Opacità del 50% */
+    border-radius: 10px; /* Smussa gli angoli dello sfondo */
+    z-index: -1; /* Posiziona lo sfondo dietro il contenuto */
+}
+
+.article-container.alternate::before {
+    background: rgba(0, 0, 0, 0.6); /* Opacità del 60% per il secondo articolo */
+}
+
+.article-text {
+    flex: 1;
+    padding: 20px; /* Aggiungi padding per spaziare il testo dal bordo arrotondato */
+    z-index: 1; /* Assicura che il testo sia sopra lo sfondo */
+}
+
+.article-text h2 {
+    color: #9c27b0;
+}
+
+.article-image img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 20px; /* Smussa gli angoli delle immagini */
+    margin-left: 150px;
+}
+
+.spacer {
+    flex: 1;
+}
+
+
