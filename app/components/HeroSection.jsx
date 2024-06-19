@@ -12,7 +12,7 @@ const HeroSection = () => {
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:-6xl font-extrabold">
            <span className="text-transparent bg-clip-text  bg-gradient-to-br from-blue-500 via-purple-400 to-pink-600 ">
-             I'm Karim Acciaro: {" "}
+             I&apos;m Karim Acciaro: {" "}
             </span>
           <br>
           </br>

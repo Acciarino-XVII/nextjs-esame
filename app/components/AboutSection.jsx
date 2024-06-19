@@ -55,10 +55,10 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            attualmente sono uno studente dell'I.T.T. U. Midossi indirizzo informatico
-            ho seguito l'alternanza scuola lavoro presso la M.G solutions di Marco Graia a Rignano Flaminio.
-            durante il periodo di pcto ho prestato servizi di assistenza informatica , assemblaggio pc , restomod exnovo
-            e assistenza in diversi uffici linitrofi.
+            attualmente sono uno studente dell&apos;I.T.T. U. Midossi indirizzo informatico
+  ho seguito l&apos;alternanza scuola lavoro presso la M.G solutions di Marco Graia a Rignano Flaminio.
+  durante il periodo di pcto ho prestato servizi di assistenza informatica, assemblaggio pc, restomod exnovo
+  e assistenza in diversi uffici limitrofi.
           
 
           </p>
