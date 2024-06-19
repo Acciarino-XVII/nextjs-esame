@@ -51,9 +51,9 @@ const EmailSection = () => {
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          attualmente sto affrontando l'ultimo anno all'indirizzo informatico dell'ITT u.midossi 
-          sto cercando opportunità di lavoro da intraprendere subito dopo il diploma
-          per qualsiasi proposta di lavoro contattami
+            attualmente sto affrontando l&apos;ultimo anno all&apos;indirizzo informatico dell&apos;ITT u.midossi 
+  sto cercando opportunit&agrave; di lavoro da intraprendere subito dopo il diploma
+  per qualsiasi proposta di lavoro contattami
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/Acciarino-XVII">
