@@ -38,7 +38,10 @@ const HeroSection = () => {
               portfolio personale ed approfondimento fake news di ed. civica
             </p>
             <div>
-              <a href="edcivica.html">
+              <a href="/pdf/edcivica.pdf"
+                 target="_blank"
+                 alt="my pdf"
+                 rel="noopener noreferrer">
               <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-transparent  bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white border mt-3" href="edcivica.html"  >
                  <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 " > 
                  ed.civica
